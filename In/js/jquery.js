@@ -1,4 +1,3 @@
-$(document).ready(function(){
 
-alert('Alert mesazhi');
-});
+$('#ikona_reload').addClass('ion-looping');
+
