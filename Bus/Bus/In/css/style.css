@@ -15,7 +15,7 @@ html {
     text-rendering: optimizeLegibility;
     font-size: 20px;
     font-weight:300;
-    font-family:'Raleway';
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .clearfix {zoom :1}
@@ -51,7 +51,7 @@ ul.topnav {
 }
 
 /* Float the list items side by side */
-ul.topnav li {float: left;}
+ul.topnav li {float: left;border-left:1px solid white;}
 
 
 ul.topnav .admin {
@@ -107,7 +107,7 @@ ul.topnav li.icon {display: none;}
 /* Oraret */
 /* ------------------------------------------------*/
 .oraret-bus ul{
-    background-color: rgb(68, 179, 194);
+    background-color: rgb(81, 93, 95);
     list-style: none;
     overflow: hidden;
     padding:0 0 0 10px;
@@ -119,9 +119,11 @@ ul.topnav li.icon {display: none;}
     display: inline-block;
     padding:5px 95px 5px 5px;
     color:white;
+	font-size:80%;
 }
 .oraret-bus ul li i{
     margin-right:10px;
+	
 }
 
 
